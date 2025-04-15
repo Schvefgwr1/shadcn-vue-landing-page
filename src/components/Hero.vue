@@ -1,8 +1,4 @@
 <script setup lang="ts">
-import { useColorMode } from "@vueuse/core";
-const mode = useColorMode();
-
-import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-vue-next";
 </script>
@@ -13,16 +9,6 @@ import { ArrowRight } from "lucide-vue-next";
       class="grid place-items-center lg:max-w-screen-xl gap-8 mx-auto py-20 md:py-32"
     >
       <div class="text-center space-y-8">
-        <Badge
-          variant="outline"
-          class="text-sm py-2"
-        >
-          <span class="mr-2 text-primary">
-            <Badge>New</Badge>
-          </span>
-          <span> Design is out now! </span>
-        </Badge>
-
         <div
           class="max-w-screen-md mx-auto text-center text-5xl md:text-6xl font-bold"
         >
@@ -30,23 +16,24 @@ import { ArrowRight } from "lucide-vue-next";
             Experience the
             <span
               class="text-transparent bg-gradient-to-r from-[#D247BF] to-primary bg-clip-text"
-              >Shadcn/Vue
+              >Vsevolod Schetov
             </span>
             landing page
           </h1>
         </div>
 
         <p class="max-w-screen-sm mx-auto text-xl text-muted-foreground">
-          We're more than just a tool, we're a community of passionate creators.
-          Get access to exclusive resources, tutorials, and support.
+          I don't just build websites — I build connections. As an independent developer, I bring your ideas to life wherever inspiration strikes — even under the open sky.<br/><br/>Get more than just a site: gain access to personalized support, real-world experience, and practical insights from someone who lives and codes outside the box.
         </p>
 
         <div class="space-y-4 md:space-y-0 md:space-x-4">
           <Button class="w-5/6 md:w-1/4 font-bold group/arrow">
-            Get Started
-            <ArrowRight
-              class="size-5 ml-2 group-hover/arrow:translate-x-1 transition-transform"
-            />
+            <a href="/#contact" style="display: flex">
+              Get Started
+              <ArrowRight
+                class="size-5 ml-2 group-hover/arrow:translate-x-1 transition-transform"
+              />
+            </a>
           </Button>
 
           <Button
@@ -55,9 +42,9 @@ import { ArrowRight } from "lucide-vue-next";
             class="w-5/6 md:w-1/4 font-bold"
           >
             <a
-              href="https://github.com/leoMirandaa/shadcn-vue-landing-page.git"
+              href="https://github.com/Schvefgwr1"
               target="_blank"
-              >Github respository</a
+              >Github</a
             >
           </Button>
         </div>
@@ -71,9 +58,7 @@ import { ArrowRight } from "lucide-vue-next";
 
         <img
           class="w-full md:w-[1200px] mx-auto rounded-lg relative rouded-lg leading-none flex items-center border border-t-2 border-t-primary/30 img-border-animation"
-          :src="
-            mode == 'light' ? 'hero-image-light.jpg' : 'hero-image-dark.jpg'
-          "
+          src="/public/example-image.png"
           alt="dashboard using shadcn-vue"
         />
 

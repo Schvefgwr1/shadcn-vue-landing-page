@@ -14,32 +14,33 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: "Is this template free?",
-    answer: "Yes. It is a free Shadcn/Vue template.",
+    question: "How long will it take to build my website?",
+    answer:
+        "Most small to medium websites are completed within 1–3 weeks depending on the complexity, features, and how quickly you provide content and feedback.",
     value: "item-1",
   },
   {
-    question: "Duis aute irure dolor in reprehenderit in voluptate velit?",
+    question: "Will my website be mobile-friendly?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam consectetur sapiente, iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+        "Absolutely. Every site I build is fully responsive and tested across all major screen sizes to ensure it looks great and works perfectly on mobile, tablet, and desktop.",
     value: "item-2",
   },
   {
-    question:
-      "Lorem ipsum dolor sit amet Consectetur natus dolor minus quibusdam?",
+    question: "Can I update the website content myself later?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui nostrum reiciendis veritatis.",
+        "Yes, I typically use content management systems like WordPress or build custom dashboards so you can easily update text, images, and blog posts on your own.",
     value: "item-3",
   },
   {
-    question: "Excepteur sint occaecat cupidata non proident sunt?",
-    answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    question: "Do you offer website maintenance after launch?",
+    answer:
+        "Yes! I offer ongoing maintenance plans that include updates, backups, security checks, and performance monitoring to keep your site running smoothly.",
     value: "item-4",
   },
   {
-    question:
-      "Enim ad minim veniam, quis nostrud exercitation ullamco laboris?",
-    answer: "consectetur adipisicing elit. Sint labore.",
+    question: "Can you help with SEO and loading speed?",
+    answer:
+        "Definitely. I follow modern SEO practices and optimize every page for fast loading times by minimizing code, compressing images, and using best practices.",
     value: "item-5",
   },
 ];
@@ -73,19 +74,5 @@ const FAQList: FAQProps[] = [
         <AccordionContent>{{ answer }}</AccordionContent>
       </AccordionItem>
     </Accordion>
-
-    <h3 class="font-medium mt-4">
-      Still have questions?
-      <a
-        href="#"
-        class="text-muted-foreground"
-      >
-        <a
-          href="#"
-          class="underline"
-          >Contact us</a
-        >
-      </a>
-    </h3>
   </section>
 </template>

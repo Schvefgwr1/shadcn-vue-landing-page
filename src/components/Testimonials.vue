@@ -31,53 +31,53 @@ const reviewList: ReviewProps[] = [
   {
     image: "https://github.com/shadcn.png",
     name: "John Doe",
-    userName: "Product Manager",
+    userName: "Startup Founder",
     comment:
-      "Wow Vue + Shadcn-Vue is awesome!. This template lets me change colors, fonts and images to match my brand identity. ",
+        "Absolutely amazing experience! The website was delivered on time, looked stunning, and worked flawlessly on all devices. Highly recommended.",
     rating: 5.0,
   },
   {
     image: "https://github.com/shadcn.png",
     name: "Sophia Collins",
-    userName: "Cybersecurity Analyst",
+    userName: "Digital Marketing Specialist",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. ",
+        "Clear communication, modern design, and SEO-friendly structure — this developer gets everything right. Will definitely hire again.",
     rating: 4.8,
   },
-
   {
     image: "https://github.com/shadcn.png",
     name: "Adam Johnson",
-    userName: "Chief Technology Officer",
+    userName: "E-commerce Manager",
     comment:
-      "Lorem ipsum dolor sit amet,exercitation. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "Our online store now loads twice as fast and looks 10x better. The custom features were exactly what we needed. Excellent work.",
     rating: 4.9,
   },
   {
     image: "https://github.com/shadcn.png",
     name: "Ethan Parker",
-    userName: "Data Scientist",
+    userName: "Creative Director",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua. Ut enim ad minim veniam.",
+        "Delivered pixel-perfect results based on our Figma designs. Even added useful suggestions that improved the final product.",
     rating: 5.0,
   },
   {
     image: "https://github.com/shadcn.png",
     name: "Ava Mitchell",
-    userName: "IT Project Manager",
+    userName: "Small Business Owner",
     comment:
-      "Lorem ipsum dolor sit amet, tempor incididunt  aliqua. Ut enim ad minim veniam, quis nostrud incididunt consectetur adipiscing elit.",
+        "I finally have a site I’m proud to show clients. Easy to update, loads fast, and works perfectly on phones. Super happy with the results.",
     rating: 5.0,
   },
   {
     image: "https://github.com/shadcn.png",
     name: "Isabella Reed",
-    userName: "DevOps Engineer",
+    userName: "Product Manager",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Professional, responsive, and skilled. Took our brief and turned it into something way beyond what we imagined. 10/10.",
     rating: 4.9,
   },
 ];
+
 </script>
 
 <template>

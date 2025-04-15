@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
+import {Card, CardContent, CardHeader, CardTitle} from "@/components/ui/card";
+import {Badge} from "@/components/ui/badge";
 
 interface HowItWorksProps {
   badgeTitle: string;
@@ -11,48 +11,49 @@ interface HowItWorksProps {
 
 const HowItWorksList: HowItWorksProps[] = [
   {
-    badgeTitle: "Contribute",
-    title: "Make a Difference with Every Contribution",
+    badgeTitle: "Crypto",
+    title: "Crypto Exchange Web Platform",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem fugiat, quasi sint reiciendis quidem iure.",
-    image: "roboto.png",
+        "Designed and built a modern, mobile-friendly website for fast and secure cryptocurrency exchanges. Integrated third-party APIs and real-time updates.",
+    image: "crypto.png",
   },
   {
-    badgeTitle: "Discover",
-    title: "Create an Impact with Every Choice",
+    badgeTitle: "Telegram Bot",
+    title: "Smart Bot System for Businesses",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem fugiat, sint reiciendis quidem iure veritatis optio facere tenetur.",
-    image: "runner.png",
+        "Developed a web interface and backend to manage a highly customizable Telegram bot for a company. Features include message automation, customer support, and analytics.",
+    image: "tgph.png",
   },
   {
-    badgeTitle: "Innovate",
-    title: "Make Every Action Count",
+    badgeTitle: "Travel",
+    title: "Flight Booking Web App",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem fugiat, odit similique quasi sint.",
-    image: "pacheco.png",
+        "Created a user-friendly interface for a plane ticket booking system with multiple payment options and dynamic search capabilities.",
+    image: "bilets.png",
   },
   {
-    badgeTitle: "Collaborate",
-    title: "Tackle this challenge together",
+    badgeTitle: "Infrastructure",
+    title: "Smart Maintenance Control System",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem fugiat, quasi sint reiciendis quidem iure.",
-    image: "gamestation.png",
+        "Built the frontend and backend for a system monitoring service quality in city-level electrical switchboards. Included alerting, analytics, and role-based access.",
+    image: "control_system.png",
   },
 ];
+
 </script>
 
 <template>
   <section
-    id="features"
-    class="container py-24 sm:py-32"
+      id="features"
+      class="container py-24 sm:py-32"
   >
     <div class="text-center mb-8">
       <h2 class="text-lg text-primary text-center mb-2 tracking-wider">
-        How It Works
+        My Projects
       </h2>
 
       <h2 class="text-3xl md:text-4xl text-center font-bold">
-        Step-by-Step Process
+        Selected Work in Action
       </h2>
     </div>
 
@@ -63,8 +64,8 @@ const HowItWorksList: HowItWorksProps[] = [
         ) in HowItWorksList"
         :key="title"
         :class="[
-          'flex mb-8 items-center',
-          { ' flex-row-reverse': index % 2 !== 0 },
+          'flex flex-col mb-8 items-center md:flex-row lg:flex-row',
+          index % 2 !== 0 ? 'md:flex-row-reverse lg:flex-row-reverse' : ''
         ]"
       >
         <Card class="h-full bg-transparent border-0 shadow-none">
@@ -84,10 +85,11 @@ const HowItWorksList: HowItWorksProps[] = [
         </Card>
 
         <img
-          :src="image"
-          :alt="`Image describing ${title} `"
-          className="w-[150px]  md:w-[250px] lg:w-[300px] mx-auto -scale-x-100 "
+            :src="image"
+            :alt="`Image describing ${title} `"
+            class="w-[300px] md:w-[400px] lg:w-[600px] mx-auto"
         />
+
         <div
           :class="[
             '-z-10 absolute right-0 w-44 h-72  lg:w-64 lg:h-80 rounded-full bg-primary/15 dark:bg-primary/10 blur-3xl',
@@ -98,5 +100,6 @@ const HowItWorksList: HowItWorksProps[] = [
         ></div>
       </div>
     </div>
+
   </section>
 </template>

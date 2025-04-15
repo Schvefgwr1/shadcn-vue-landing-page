@@ -21,41 +21,42 @@ interface FeaturesProps {
 const featureList: FeaturesProps[] = [
   {
     icon: "tabletSmartphone",
-    title: "Mobile Friendly",
+    title: "Built for Any Screen",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, consectetur.",
+        "Your website looks great everywhere — from laptops in cafés to phones on the trail. I test and optimize on real devices, in real settings.",
   },
   {
     icon: "badgeCheck",
-    title: "Social Proof",
+    title: "Trust Built-In",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Natus consectetur, odio ea accusamus aperiam.",
+        "Designs that inspire confidence and connection. Authenticity comes first — no generic templates, just real work for real people.",
   },
   {
     icon: "goal",
-    title: "Targeted Content",
+    title: "Focused Messaging",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. odio ea accusamus aperiam.",
+        "Every word and pixel serves your goals. Whether you're building a brand or sharing a passion, I keep your message sharp and on point.",
   },
   {
     icon: "pictureInPicture",
-    title: "Strong Visuals",
+    title: "Eye-Catching Visuals",
     description:
-      "Lorem elit. A odio velit cum aliquam. Natus consectetur dolores, odio ea accusamus aperiam.",
+        "Crafted with clean layouts and immersive visuals that reflect your vibe — whether you're city-based or mountain-minded.",
   },
   {
     icon: "mousePointerClick",
-    title: "Clear CTA",
+    title: "Action-Driven Design",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing. odio ea accusamus consectetur.",
+        "Clear buttons. Easy paths. No fluff. Each site is built to guide your visitors exactly where you want them to go.",
   },
   {
     icon: "newspaper",
-    title: "Clear Headline",
+    title: "Headline that Hits",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur.",
+        "I craft bold, simple headlines that grab attention — inspired by your story and shaped by what matters most.",
   },
 ];
+
 
 const iconMap: Record<
   string,
@@ -85,17 +86,15 @@ const iconMap: Record<
     class="container py-24 sm:py-32"
   >
     <h2 class="text-lg text-primary text-center mb-2 tracking-wider">
-      Features
+      My Approach
     </h2>
 
     <h2 class="text-3xl md:text-4xl text-center font-bold mb-4">
-      What Makes Us Different
+      What Sets My Work Apart
     </h2>
 
     <h3 class="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
-      fugiat, odit similique quasi sint reiciendis quidem iure veritatis optio
-      facere tenetur.
+      I design and build websites where ideas flow — whether it’s on a mountain trail, in a city park, or from a quiet cabin. Real-life testing, real connection, and real results.
     </h3>
 
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
